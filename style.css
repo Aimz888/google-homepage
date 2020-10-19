@@ -2,3 +2,17 @@
 background-color: aqua;
 } 
 
+.topbar-right{}
+
+.search{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
+.twobuttons {
+    text-align: center;
+    padding: 10px;
+}
+
+.searchbar{border-radius: 10px;}
