@@ -1,18 +1,38 @@
 .topbar{
-background-color: aqua;
+float: left;
+
 } 
 
-.topbar-right{}
-
-.search{
-    margin-left: auto;
-    margin-right: auto;
-    width: 8em
+.topbar-right{
+    float: right;
 }
 
+.signin{
+    background-color: blue;
+    color: ghostwhite;
+    border-radius: 10px;
+}
+.search{
+    background-color: aquamarine; 
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width:300px
+}
+
+.searchbar{
+    width:400px;
+}
 .twobuttons {
     text-align: center;
     padding: 10px;
+}
+
+button:hover{
+    border: 2px solid blue;
 }
 
 .searchbar{border-radius: 10px;}
