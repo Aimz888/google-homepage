@@ -31,8 +31,26 @@ float: left;
     padding: 10px;
 }
 
+button{
+  border: 2px  
+}
 button:hover{
     border: 2px solid blue;
 }
 
 .searchbar{border-radius: 10px;}
+
+footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightslategrey;
+    position: fixed;
+  bottom: 0;
+  width: 100%;
+  }
+
+.footeritems{
+    display: inline;
+    color: ghostwhite;
+}
