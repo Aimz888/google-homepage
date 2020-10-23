@@ -1,3 +1,6 @@
+body{
+    font-family: Arial;
+}
 .topbar{
 float: left;
 
@@ -15,26 +18,41 @@ float: left;
 .search{
     background-color: aquamarine; 
     padding-top: 200px;
-    display: flex;
-    justify-content: center;
 }
 
 .logo{
-    width:300px
+    width:350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .searchbar{
     width:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-.twobuttons {
-    text-align: center;
+#twobuttons {
     padding: 10px;
+    text-align: center;
+
 }
 
-button{}
+.submitbutton, .luckybutton {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    color: #5F6368;
+    width: 130px;
+    padding: 6px;
+    font-size: 13px;
+
+}
 
 button:hover{
-    border: 2px solid blue;
+    border: 1px solid black;
+    color: black;
 }
 
 .searchbar{border-radius: 10px;}
