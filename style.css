@@ -11,9 +11,12 @@ float: left;
 }
 
 .signin{
-    background-color: blue;
+    background-color:#4683ea;;
     color: ghostwhite;
-    border-radius: 10px;
+    border-radius: 2px;
+    border: 0px;
+    width: 75px;
+    height: 40px;
 }
 .search{
     background-color: white; 
