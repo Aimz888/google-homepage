@@ -16,7 +16,7 @@ float: left;
     border-radius: 10px;
 }
 .search{
-    background-color: aquamarine; 
+    background-color: white; 
     padding-top: 200px;
 }
 
@@ -27,12 +27,41 @@ float: left;
     margin-right: auto;
 }
 
-.searchbar{
-    width:400px;
-    display: block;
+.searchborder{
+    border: 2px solid gray;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
+    height: 40px;
+    width: 700px;
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.searchbar{
+    width:600px;
+    display: flex;
+    height:30px;
+    border: 0px;
+}
+
+.searchlogo  {
+display:flex;
+width: 20px;
+height: 20px;
+margin-left: 10px;
+}
+
+.miclogo {
+display:flex;
+width: 20px;
+height: 20px;
+margin-right: 10px;
+}
+
 #twobuttons {
     padding: 10px;
     text-align: center;
